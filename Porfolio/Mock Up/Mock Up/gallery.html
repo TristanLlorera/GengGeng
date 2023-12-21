@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery of Mock Up Designs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #ca8516;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 0fr));
+            gap: 20px;
+            padding: 16px;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Photo Gallery</h1>
+    </header>
+
+    <div class="gallery">
+        <img src="mockup1.png" alt="Image 1">
+        <img src="mockup2.png" alt="Image 2">
+        <img src="mockup3.png" alt="Image 3">
+    </div>
+
+</body>
+</html>
