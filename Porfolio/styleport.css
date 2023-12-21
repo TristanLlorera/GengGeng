@@ -1,0 +1,56 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 20;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eff4fd ;
+    color: #000000;
+    line-height: 1.6;
+    margin: auto;
+    padding: 0;
+}
+
+section h2{
+    color: rgb(0, 0, 0);
+}
+
+section h3{
+    color: rgb(0, 0, 0);
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background-color: orange;
+    color: #000000;
+}
+
+header button{
+    background-color: #212121;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+#projects{
+    padding:10px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+a button{
+    border-width: 2px;
+    border-color: orange;
+    border-radius: 10px;
+    background-color: #212121;
+    color: white;
+    padding: 8px;
+    margin-top: 6px;
+}
+
+a button:active{
+    transform: scale(0.96);
+}
